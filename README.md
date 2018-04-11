@@ -44,4 +44,19 @@ Dependancys:
 
 ```sudo checkinstall```
 
+output:
+```
+**********************************************************************
+
+ Done. The new package has been installed and saved to
+
+ /home/ico/Downloads/Python-2.7.13/python_2.7.13-1_amd64.deb
+
+ You can remove it from your system anytime using: 
+
+      dpkg -r python
+
+**********************************************************************
+```
+
 #### Toolkit
