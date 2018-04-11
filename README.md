@@ -60,3 +60,53 @@ output:
 ```
 
 #### Toolkit
+
+
+```git clone https://github.com/juj/emsdk.git```
+```cd emsdk```
+```./emsdk install latest```
+
+```./emsdk activate latest```
+
+Output:
+```
+The Emscripten configuration file /home/ico/.emscripten has been rewritten with the following contents:
+
+import os
+LLVM_ROOT='/home/ico/emsdk/clang/e1.37.36_64bit'
+EMSCRIPTEN_NATIVE_OPTIMIZER='/home/ico/emsdk/clang/e1.37.36_64bit/optimizer'
+BINARYEN_ROOT='/home/ico/emsdk/clang/e1.37.36_64bit/binaryen'
+NODE_JS='/home/ico/emsdk/node/8.9.1_64bit/bin/node'
+EMSCRIPTEN_ROOT='/home/ico/emsdk/emscripten/1.37.36'
+SPIDERMONKEY_ENGINE = ''
+V8_ENGINE = ''
+TEMP_DIR = '/tmp'
+COMPILER_ENGINE = NODE_JS
+JS_ENGINES = [NODE_JS]
+
+To conveniently access the selected set of tools from the command line, consider adding the following directories to PATH, or call 'source ./emsdk_env.sh' to do this for you.
+
+   /home/ico/emsdk:/home/ico/emsdk/clang/e1.37.36_64bit:/home/ico/emsdk/node/8.9.1_64bit/bin:/home/ico/emsdk/emscripten/1.37.36
+Set the following tools as active:
+   clang-e1.37.36-64bit
+   node-8.9.1-64bit
+   emscripten-1.37.36
+```
+
+```source ./emsdk_env.sh --build=Release```
+
+Output:
+```
+(wheezy)ico@localhost:~/emsdk$ source ./emsdk_env.sh --build=Release
+Adding directories to PATH:
+PATH += /home/ico/emsdk
+PATH += /home/ico/emsdk/clang/e1.37.36_64bit
+PATH += /home/ico/emsdk/node/8.9.1_64bit/bin
+PATH += /home/ico/emsdk/emscripten/1.37.36
+
+Setting environment variables:
+EMSDK = /home/ico/emsdk
+EM_CONFIG = /home/ico/.emscripten
+BINARYEN_ROOT = /home/ico/emsdk/clang/e1.37.36_64bit/binaryen
+EMSCRIPTEN = /home/ico/emsdk/emscripten/1.37.36
+```
