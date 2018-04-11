@@ -3,7 +3,9 @@ Repository for learning WebAssembly
 
 ## Instalation PreRec
 See [Developers Guide](http://webassembly.org/getting-started/developers-guide/)
-### Linux
+### Linux Installs
+***This was written for an install of wheezy on chroot***
+
 #### GIT
 See [GIT Install](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
 
@@ -16,3 +18,16 @@ See [CMAKE Install](http://cgold.readthedocs.io/en/latest/first-step/installatio
 See [GCC Install](https://askubuntu.com/questions/154402/install-gcc-on-ubuntu-12-04-lts)
 
 ```sudo apt-get install gcc```
+
+#### Python 2.7
+See [Python 2.7 Install](https://askubuntu.com/questions/101591/how-do-i-install-the-latest-python-2-7-x-or-3-x-on-ubuntu)
+
+Dependancys:
+
+```sudo apt-get install build-essential checkinstall```
+
+```sudo apt-get install libreadline-gplv2-dev libncursesw5-dev libssl-dev libsqlite3-dev tk-dev libgdbm-dev libc6-dev libbz2-dev```
+
+```wget https://www.python.org/ftp/python/$version/Python-$version.tgz```
+
+#### Toolkit
