@@ -112,3 +112,18 @@ EM_CONFIG = /home/ico/.emscripten
 BINARYEN_ROOT = /home/ico/emsdk/clang/e1.37.36_64bit/binaryen
 EMSCRIPTEN = /home/ico/emsdk/emscripten/1.37.36
 ```
+
+
+
+
+## Resources
+### Docs/Code Bases
++ http://webassembly.org/getting-started/developers-guide/
++ https://github.com/mbasso/awesome-wasm/blob/master/README.md
+
+### Blog Posts
++ https://labnotes.panderalabs.com/learning-how-to-learn-webassembly-7743663ed4d0
++ https://hacks.mozilla.org/2017/02/a-cartoon-intro-to-webassembly/
+
+### Walkthrough/Classes
++ https://egghead.io/courses/get-started-using-webassembly-wasm
