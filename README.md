@@ -127,3 +127,4 @@ EMSCRIPTEN = /home/ico/emsdk/emscripten/1.37.36
 
 ### Walkthrough/Classes
 + https://egghead.io/courses/get-started-using-webassembly-wasm
++ https://rsms.me/wasm-intro
